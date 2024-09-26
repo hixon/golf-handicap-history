@@ -1,0 +1,6 @@
+@golf_handicap_history.Server_HostAddress = http://localhost:5226
+
+GET {{golf_handicap_history.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,59 @@
+{
+  "courses": [
+    {
+      "course": "Hannastown",
+      "courseId": 1, 
+      "state": "PA"
+    },
+    {
+      "course": "Westwood",
+      "courseId": 2,
+      "state": "PA"
+    },
+    {
+      "course": "Yough CC",
+      "courseId": 3,
+      "state": "PA"
+    },
+    {
+      "course": "South Park GC",
+      "courseId": 4,
+      "state": "PA"
+    },
+    {
+      "course": "Grand View GC",
+      "courseId": 5,
+      "state": "PA"
+    },
+    {
+      "course": "Willowbrook",
+      "courseId": 6,
+      "state": "PA"
+    },
+    {
+      "course": "Nemacolin CC",
+      "courseId": 7,
+      "state": "PA"
+    },
+    {
+      "course": "Totteridge",
+      "courseId": 8,
+      "state": "PA"
+    },
+    {
+      "course": "The Mines",
+      "courseId": 9,
+      "state": "MI"
+    },
+    {
+      "course": "Pilgrims Run",
+      "courseId": 10,
+      "state": "MI"
+    },
+    {
+      "course": "Diamond Springs",
+      "courseId": 11,
+      "state": "MI"
+    }
+  ]
+}

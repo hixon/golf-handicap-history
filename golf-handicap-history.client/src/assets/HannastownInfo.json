@@ -1,0 +1,378 @@
+{
+        "course": "Hannastown",
+        "courseId": 1,
+        "tees": [
+          {
+            "tee": "Gold",
+            "teeId": 1,
+            "color": "#cc9900",
+            "text": "#000000",
+            "rating": 72.5,
+            "slope": 132,
+            "front9length": 3431,
+            "backl9ength": 3237,
+            "totallength": 6668,
+            "front9par": 35,
+            "back9par": 35,
+            "totalpar": 70,
+            "holes": [
+              {
+                "num": 1,
+                "length": 436,
+                "par": 4,
+                "hcp": 5
+              },
+              {
+                "num": 2,
+                "length": 131,
+                "par": 3,
+                "hcp": 17
+              },
+              {
+                "num": 3,
+                "length": 369,
+                "par": 4,
+                "hcp": 13
+              },
+              {
+                "num": 4,
+                "length": 416,
+                "par": 4,
+                "hcp": 1
+              },
+              {
+                "num": 5,
+                "length": 423,
+                "par": 4,
+                "hcp": 9
+              },
+              {
+                "num": 6,
+                "length": 402,
+                "par": 4,
+                "hcp": 11
+              },
+              {
+                "num": 7,
+                "length": 240,
+                "par": 3,
+                "hcp": 15
+              },
+              {
+                "num": 8,
+                "length": 604,
+                "par": 5,
+                "hcp": 3
+              },
+              {
+                "num": 9,
+                "length": 410,
+                "par": 4,
+                "hcp": 7
+              },
+              {
+                "num": 10,
+                "length": 345,
+                "par": 4,
+                "hcp": 10
+              },
+              {
+                "num": 11,
+                "length": 231,
+                "par": 3,
+                "hcp": 14
+              },
+              {
+                "num": 12,
+                "length": 533,
+                "par": 5,
+                "hcp": 4
+              },
+              {
+                "num": 13,
+                "length": 187,
+                "par": 3,
+                "hcp": 18
+              },
+              {
+                "num": 14,
+                "length": 583,
+                "par": 5,
+                "hcp": 2
+              },
+              {
+                "num": 15,
+                "length": 197,
+                "par": 3,
+                "hcp": 16
+              },
+              {
+                "num": 16,
+                "length": 300,
+                "par": 4,
+                "hcp": 12
+              },
+              {
+                "num": 17,
+                "length": 438,
+                "par": 4,
+                "hcp": 8
+              },
+              {
+                "num": 18,
+                "length": 423,
+                "par": 4,
+                "hcp": 6
+              }
+            ]
+          },
+          {
+            "tee": "Blue",
+            "teeId": 2,
+            "color": "#0000ff",
+            "text": "#ffffff",
+            "rating": 70.7,
+            "slope": 130,
+            "front9length": 3197,
+            "backl9ength": 3090,
+            "totallength": 6287,
+            "front9par": 35,
+            "back9par": 35,
+            "totalpar": 70,
+            "holes": [
+              {
+                "num": 1,
+                "length": 389,
+                "par": 4,
+                "hcp": 5
+              },
+              {
+                "num": 2,
+                "length": 127,
+                "par": 3,
+                "hcp": 17
+              },
+              {
+                "num": 3,
+                "length": 358,
+                "par": 4,
+                "hcp": 13
+              },
+              {
+                "num": 4,
+                "length": 386,
+                "par": 4,
+                "hcp": 1
+              },
+              {
+                "num": 5,
+                "length": 385,
+                "par": 4,
+                "hcp": 9
+              },
+              {
+                "num": 6,
+                "length": 380,
+                "par": 4,
+                "hcp": 11
+              },
+              {
+                "num": 7,
+                "length": 210,
+                "par": 3,
+                "hcp": 15
+              },
+              {
+                "num": 8,
+                "length": 564,
+                "par": 5,
+                "hcp": 3
+              },
+              {
+                "num": 9,
+                "length": 398,
+                "par": 4,
+                "hcp": 7
+              },
+              {
+                "num": 10,
+                "length": 330,
+                "par": 4,
+                "hcp": 10
+              },
+              {
+                "num": 11,
+                "length": 220,
+                "par": 3,
+                "hcp": 14
+              },
+              {
+                "num": 12,
+                "length": 522,
+                "par": 5,
+                "hcp": 4
+              },
+              {
+                "num": 13,
+                "length": 163,
+                "par": 3,
+                "hcp": 18
+              },
+              {
+                "num": 14,
+                "length": 545,
+                "par": 5,
+                "hcp": 2
+              },
+              {
+                "num": 15,
+                "length": 175,
+                "par": 3,
+                "hcp": 16
+              },
+              {
+                "num": 16,
+                "length": 296,
+                "par": 4,
+                "hcp": 12
+              },
+              {
+                "num": 17,
+                "length": 424,
+                "par": 4,
+                "hcp": 8
+              },
+              {
+                "num": 18,
+                "length": 415,
+                "par": 4,
+                "hcp": 6
+              }
+            ]
+          },
+          {
+            "tee": "White",
+            "teeId": 3,
+            "color": "#ffffff",
+            "text": "#000000",
+            "rating": 66.7,
+            "slope": 124,
+            "front9length": 2768,
+            "backl9ength": 2709,
+            "totallength": 5477,
+            "front9par": 35,
+            "back9par": 35,
+            "totalpar": 70,
+            "holes": [
+                  {
+                    "num": 1,
+                    "length": 315,
+                    "par": 4,
+                    "hcp": 5
+                  },
+                  {
+                    "num": 2,
+                    "length": 121,
+                    "par": 3,
+                    "hcp": 17
+                  },
+                  {
+                    "num": 3,
+                    "length": 336,
+                    "par": 4,
+                    "hcp": 13
+                  },
+                  {
+                    "num": 4,
+                    "length": 316,
+                    "par": 4,
+                    "hcp": 1
+                  },
+                  {
+                    "num": 5,
+                    "length": 345,
+                    "par": 4,
+                    "hcp": 9
+                  },
+                  {
+                    "num": 6,
+                    "length": 350,
+                    "par": 4,
+                    "hcp": 11
+                  },
+                  {
+                    "num": 7,
+                    "length": 180,
+                    "par": 3,
+                    "hcp": 15
+                  },
+                  {
+                    "num": 8,
+                    "length": 480,
+                    "par": 5,
+                    "hcp": 3
+                  },
+                  {
+                    "num": 9,
+                    "length": 325,
+                    "par": 4,
+                    "hcp": 7
+                  },
+                  {
+                    "num": 10,
+                    "length": 290,
+                    "par": 4,
+                    "hcp": 10
+                  },
+                  {
+                    "num": 11,
+                    "length": 150,
+                    "par": 3,
+                    "hcp": 14
+                  },
+                  {
+                    "num": 12,
+                    "length": 450,
+                    "par": 5,
+                    "hcp": 4
+                  },
+                  {
+                    "num": 13,
+                    "length": 140,
+                    "par": 3,
+                    "hcp": 18
+                  },
+                  {
+                    "num": 14,
+                    "length": 520,
+                    "par": 5,
+                    "hcp": 2
+                  },
+                  {
+                    "num": 15,
+                    "length": 165,
+                    "par": 3,
+                    "hcp": 16
+                  },
+                  {
+                    "num": 16,
+                    "length": 290,
+                    "par": 4,
+                    "hcp": 12
+                  },
+                  {
+                    "num": 17,
+                    "length": 350,
+                    "par": 4,
+                    "hcp": 8
+                  },
+                  {
+                    "num": 18,
+                    "length": 354,
+                    "par": 4,
+                    "hcp": 6
+                  }
+            ]
+          }
+        ]
+    }
