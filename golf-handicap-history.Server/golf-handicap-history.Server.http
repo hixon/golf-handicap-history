@@ -3,4 +3,6 @@
 GET {{golf_handicap_history.Server_HostAddress}}/weatherforecast/
 Accept: application/json
 
+GET {{golf_handicap_history.Server_HostAddress}}/courselist/
+Accept: application/json
 ###

@@ -2,68 +2,45 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import CourseInfo from './ScoreDetails/CourseInfo'
 import CourseList from './CourseDetails/CourseList'
+import { CourseDetails } from './Interfaces/CourseInterface';
 
 //test files for JSON - REMOVE WHEN USING API
 import teeInfo from './assets/HannastownInfo.json'
-import courses from './assets/Courses.json'
+
+//import courses from './assets/Courses.json'
 /*import CourseInterface from './Interfaces/CourseInterface'*/
 
-interface Forecast {
-    date: string;
-    temperatureC: number;
-    temperatureF: number;
-    summary: string;
-}
 
 function App() {
-    const [forecasts, setForecasts] = useState<Forecast[]>();
+    const [courseinfo, setCourseinfo] = useState<CourseDetails[]>();
 
     useEffect(() => {
-        populateWeatherData();
+        populateGolfCourses();
     }, []);
 
     //here is where we would get the courses from an axios call
     //and possibly pre fetch some course details?
 
-    const contents = forecasts === undefined
-        ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-        : <table className="table table-striped" aria-labelledby="tableLabel">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Temp. (C)</th>
-                    <th>Temp. (F)</th>
-                    <th>Summary</th>
-                </tr>
-            </thead>
-            <tbody>
-                {forecasts.map(forecast =>
-                    <tr key={forecast.date}>
-                        <td>{forecast.date}</td>
-                        <td>{forecast.temperatureC}</td>
-                        <td>{forecast.temperatureF}</td>
-                        <td>{forecast.summary}</td>
-                    </tr>
-                )}
-            </tbody>
-        </table>;
+    //const [courseId, setCourseId] = useState();
+    //const [score, setScore] = useState<Score[]>();
 
-    return (
-        <div>
-            <h1 id="tableLabel">Weather forecast</h1>
-            <p>This component demonstrates fetching data from the server.</p>
-            {contents}
+    if (courseinfo != undefined) {
+        return (
+            <div>
+                <h1 id="tableLabel">Course List Test</h1>
+                <p>This component demonstrates fetching data from the server.</p>
 
-            <h1 id="golf-handicap">Golf</h1>
-            <CourseList courselist={courses.courses} />  {/*have this drive the CourseInfo*/}
-            <CourseInfo details={teeInfo} />
-        </div>
-    );
+                <h1 id="golf-handicap">Golf</h1>
+                <CourseList courselist={courseinfo!} />  {/*have this drive the CourseInfo*/}
+                <CourseInfo details={teeInfo} />
+            </div>
+        );
+    }
 
-    async function populateWeatherData() {
-        const response = await fetch('weatherforecast');
+    async function populateGolfCourses() {
+        const response = await fetch('courselist');
         const data = await response.json();
-        setForecasts(data);
+        setCourseinfo(data);
     }
 }
 
